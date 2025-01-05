@@ -1014,14 +1014,6 @@ public class MainFrame extends javax.swing.JFrame {
         addStudentStatusLabel.setText("Student " + fName + " " + lName + " has been added");
     }//GEN-LAST:event_addStudentSubmitButtonActionPerformed
 
-    private void addFirstNameTextfieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addFirstNameTextfieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_addFirstNameTextfieldActionPerformed
-
-    private void addStudentIDTextfieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addStudentIDTextfieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_addStudentIDTextfieldActionPerformed
-
     private void addClassSubmitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addClassSubmitButtonActionPerformed
         //Pre: Need the action event handler
         //Post: Will add a class to the DB
@@ -1041,11 +1033,7 @@ public class MainFrame extends javax.swing.JFrame {
         //Rebuild the combo boxes at the end
         rebuildCourseCodeComboBoxes();
     }//GEN-LAST:event_addClassSubmitButtonActionPerformed
-
-    private void addCourseCodeComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addCourseCodeComboBoxActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_addCourseCodeComboBoxActionPerformed
-
+    
     private void addCourseSubmitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addCourseSubmitButtonActionPerformed
         //Pre: Need action event handler
         //Post: Will add a new course into the DB
@@ -1064,33 +1052,13 @@ public class MainFrame extends javax.swing.JFrame {
         addCourseStatusLabel.setText("Course " + code + " has been added.");
     }//GEN-LAST:event_addCourseSubmitButtonActionPerformed
 
-    private void addCourseDescriptionTextfieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addCourseDescriptionTextfieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_addCourseDescriptionTextfieldActionPerformed
-
-    private void addCourseCodeTextfieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addCourseCodeTextfieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_addCourseCodeTextfieldActionPerformed
-
     private void addSemesterSubmitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addSemesterSubmitButtonActionPerformed
         String semester = addSemesterTextfield.getText();
         SemesterQueries.addSemester(semester);
         addSemesterStatusField.setText("Semester " + semester + " has been added.");
         rebuildSemesterComboBoxes();
     }//GEN-LAST:event_addSemesterSubmitButtonActionPerformed
-
-    private void addSemesterTextfieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addSemesterTextfieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_addSemesterTextfieldActionPerformed
-
-    private void chooseClassStudentComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseClassStudentComboBoxActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_chooseClassStudentComboBoxActionPerformed
-
-    private void lookSelectStudentComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lookSelectStudentComboBoxActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_lookSelectStudentComboBoxActionPerformed
-
+    
     private void addDisplayStudentScheduleDisplayButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addDisplayStudentScheduleDisplayButtonActionPerformed
         //Pre: Need action event handler
         //Post: Will display student schedule
@@ -1181,11 +1149,7 @@ public class MainFrame extends javax.swing.JFrame {
         }
 
     }//GEN-LAST:event_addDisplayClassesDisplayButtonActionPerformed
-
-    private void chooseClassAdminComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseClassAdminComboBoxActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_chooseClassAdminComboBoxActionPerformed
-
+    
     private void dropClassAdminSubmitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dropClassAdminSubmitButtonActionPerformed
     //Pre: Need the action event
     //Post: Will drop the class via the button
@@ -1223,10 +1187,6 @@ public class MainFrame extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_dropClassAdminSubmitButtonActionPerformed
-
-    private void currentSemesterComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_currentSemesterComboBoxActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_currentSemesterComboBoxActionPerformed
 
     private void displayClassListButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_displayClassListButtonActionPerformed
     //Pre: Need the action event handler
